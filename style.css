@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+h1{
+    text-align: center;
+}
+
+h2{
+    margin: 10px;
+    font-size: 25px;
+}
+
+h3{
+    margin: 10px;
+    font-size: 22px;
+}
+
+h4{
+    margin: 30px 20px 20px 20px;
+    
+    font-size: 20px;
+}
+
+p{
+    margin: 10px;
+    font-size: 18px;
+}
+
+img{
+    margin: 10px;
+}
+
+
+.contenedor_nav{
+    background-color: rgb(118, 118, 123);
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+    position: fixed;
+    
+}
+
+.barra_nav{
+    display: flex;
+    width: 70%;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.link_nav{
+    justify-content: space-between;
+    margin: 0 40px 0 40px;
+    text-decoration: none;
+    color: #68398B;
+}
+
+.link_nav:hover{
+    color: rgba(35, 35, 198, 0.816);
+}
+
+#sobre_mi{
+    
+    width: 100%;
+    padding-top: 70px;
+
+}
+
+.titulo_sobreMi{
+    text-align: center;
+    
+    
+}
+
+.contenedor_info_sobreMi{
+    
+    margin: 20px 10px 10px 10px;
+    width: 95%;
+    
+}
+
+
+#equipos{
+    width: 100%;
+}
+
+
+
+.equipos_preferidos{
+    margin-top: 20px;
+
+}
+.contenedor_padre_diseño{
+    margin: 20px;
+    display: flex;
+    
+}
+
+.contenedor_descripcion{
+    width: 50%;
+}
+
+.contenedor_img_equipo{
+    width: 50%;   
+}
+
+
+
+.imagen_equipo{
+    width: 80%;
+    height: 350px;
+}
+.img_jugadores{
+    width: 50%;
+    
+}
